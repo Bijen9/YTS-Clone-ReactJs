@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arimo, Arial, Helvetica, "Lucida Grande", sans-serif;
+    letter-spacing: -.03em;
+    font-size: 16px;
+    margin: 0 auto;
+    background-color: #1d1d1d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav {   
+    height: 60px;
+    padding-top: 8px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    /* position: fixed; */
+    background: #1d1d1d;
+    overflow: hidden;
+    color: #919191;
+    border-bottom: 1px solid #2f2f2f;
+    /* display: flex;
+    justify-content: space-between; */
+    align-items: center; 
+    
+}
+
+.nav-logo {
+    margin-left:5% ;
+}
+.header-slogan {
+    font-size: 1.2em;
+    margin-left: 2%;
+    margin-top: 7px;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+.main-nav-links {
+    float: right;
+    margin-right:5%
+}
+
+#quick-search {
+    float: left;
+    margin-top: 5px;
+}
+
+#quick-search-container {
+position: relative;
+margin-right: 10px;
+}
+
+#quick-search-input {
+    width: 250px;
+    height: 35px;
+    font-size: .85em;
+    font-weight: bold;
+    color: #919191;
+    border: 2px solid #333;
+    border-radius: 20px;
+    padding: 4px 30px;
+    background: #1d1d1d  no-repeat 9px 8px;
+    background-image: url("../images/icon-search.svg");
+}
+
+.nav-links {
+    display: inline-block
+}
+
+/* ul {
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start:40px ;
+    unicode-bidi: isolate;
+} */
+
+.nav-links li{
+    display: inline;
+    margin-right: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-links li a{
+    overflow: hidden;
+    display: inline-block;
+    font-size: .85em;
+    font-weight: bold;
+    color: #919191;
+    transition: color .25s ease-in-out;
+}
+.nav-links li a:hover {
+    color: #ffffff;
+
+}
+.nav-links li .four-nav {
+    color: rgb(106, 192, 69);
+}
+.nav-links li .four-nav:hover {
+    color: rgb(106, 192, 69);
+}
+
+a {
+    text-decoration: none !important;
+    background-color: transparent;
+}
+.nav-links li .login-nav-btn {
+    color: white;
+}
+.nav-links li .login-nav-btn:hover {
+    color: #919191;
+}
+.nav-links li .register-nav-btn {
+    color: white;
+}
+.nav-links li .register-nav-btn:hover {
+    color: #919191;
+}
+

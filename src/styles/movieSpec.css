@@ -1,0 +1,90 @@
+.main {
+    color: white;
+    padding: 20px 15px 30px;
+
+}
+.firstContainer1 {
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+    gap: 80px;
+    max-width: 1200px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin: auto;
+    display: flex;
+    text-align: left;
+}
+.img-responsive1 {
+    width: 250px;
+    height: 400px;
+    border: solid 5px white;
+    border-radius: 6px;
+}
+span {
+    margin-right: 50px;
+}
+
+.movieFigure {
+    display: flex;
+    flex-direction: column;
+}
+
+.movie-info a {
+    background: rgba(27,27,35,.4);
+    padding: 5px 12px;
+    border-radius: 3px;
+    border: 1px solid rgba(255,255,255,.16);
+    color: white;
+    font-size: .8em;
+    text-decoration: none;
+}
+.downloadimg {
+    margin-right: 10px;
+}
+.movieFigure .downloadbtn {
+    width: 250px;
+    margin-top: 8px;
+    height: 40px;
+    background: #6ac045;
+    border-radius: 3px;
+    font-size: bold
+    
+}
+.movieFigure .downloadbtn a {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.movieFigure .watchbtn {
+    width: 250px;
+    margin-top: 10px;
+    height: 40px;
+    background: #00FFE7A3;
+}
+.movieFigure .watchbtn a{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.similar-movies h4{
+    margin: 3px;
+    
+}
+.similarMoviesBox {
+  display: grid;
+  grid-template-columns:repeat(2, 1fr) ;
+  /* grid-template-rows: 20px 20px; */
+  gap: 20px;
+}
+
+
+.movieimg {
+    width: 100px;
+    height: 146px;
+    border: solid 5px white;
+    border-radius: 6px;
+    
+}
+
+

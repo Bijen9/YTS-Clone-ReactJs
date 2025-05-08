@@ -1,0 +1,39 @@
+footer {
+    background-color: #171717;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 1px solid #2f2f2f;
+    width: 100%;
+   
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px; 
+}
+.rowFooter {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+footer ul {
+    padding-top: 10px;
+    display: inline-block;
+}
+footer ul li{
+    display: inline;
+    margin-right: 5px;
+}
+
+footer ul li a {
+    font-size: .85em;
+    font-weight: bold;
+    color: #919191;
+    
+}
+footer ul li a:hover {
+    color: white;
+    transition: .25s ease-in-out;
+}
