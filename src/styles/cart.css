@@ -1,0 +1,32 @@
+/* .add-to-cart-button{
+    display: none 
+} */
+.delete-button {
+  margin-top: 5px;
+  background-color: #c80000;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.delete-button:hover {
+    background-color: #b83a3a;
+}
+.deleteMain{
+    margin-top: 30px;
+}
+.deleteAll {
+  text-align: right;
+  /* margin-top: 40px; */
+
+  background-color: #c80000;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.deleteAll:hover{
+    background-color: #b83a3a;
+}
